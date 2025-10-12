@@ -7,7 +7,14 @@
 
 z-offset = 2.344
 
+### PETG CF
 
+#### Stock build plate - ender 3v3 se
+z-offset = 2.344 - 0.150 = 2.194
+
+#### PEI/PEO build plate - ender 3v3 se
+
+z-offset = 2.334
 
 ## Bed mesh
 
