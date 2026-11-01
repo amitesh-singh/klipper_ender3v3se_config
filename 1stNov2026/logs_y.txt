@@ -1,0 +1,14 @@
+ami@klipper:~/printer_data/config/1stNov2026 $ ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+Processing resonances from /tmp/resonances_y_20261101_143148.csv
+Fitted shaper 'zv' frequency = 44.2 Hz (vibrations = 18.8%, smoothing ~= 0.084)
+To avoid too much smoothing with 'zv', suggested max_accel <= 7600 mm/sec^2
+Fitted shaper 'mzv' frequency = 28.8 Hz (vibrations = 0.8%, smoothing ~= 0.246)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 2400 mm/sec^2
+Fitted shaper 'ei' frequency = 37.6 Hz (vibrations = 0.6%, smoothing ~= 0.233)
+To avoid too much smoothing with 'ei', suggested max_accel <= 2600 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 46.0 Hz (vibrations = 0.0%, smoothing ~= 0.268)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 2200 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 57.8 Hz (vibrations = 0.0%, smoothing ~= 0.271)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 2200 mm/sec^2
+Recommended shaper is ei @ 37.6 Hz
+
